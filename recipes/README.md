@@ -1,0 +1,5 @@
+# Recipes — การประยุกต์ใช้
+
+<!-- สร้างอัตโนมัติด้วย `bun run index` ห้ามแก้ไฟล์นี้เอง แก้ที่ README.md ของแต่ละอุปกรณ์แทน -->
+
+ยังไม่มี Recipe — วิธีเพิ่มดู [CONTRIBUTING.md](../CONTRIBUTING.md)

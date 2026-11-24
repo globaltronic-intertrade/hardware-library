@@ -1,0 +1,16 @@
+{
+  "name": "hardware-library",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "index": "bun tools/build-index.ts",
+    "check:index": "bun tools/build-index.ts --check",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "verify": "bun run check:index && bun run format:check"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "prettier": "^3.6.2"
+  }
+}

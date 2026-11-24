@@ -1,0 +1,45 @@
+# Allowed Capability and Interface values (CONTEXT.md § Vocabulary).
+# A Device may only use values listed here. Need a new one? Add it here in the same PR,
+# lowercase-kebab key + Thai label, then run `bun run index`.
+
+capabilities:
+  # measure
+  temperature: อุณหภูมิ
+  humidity: ความชื้นในอากาศ
+  pressure: ความกดอากาศ
+  soil-moisture: ความชื้นในดิน
+  light: ความสว่าง
+  distance: ระยะทาง
+  motion: การเคลื่อนไหว
+  acceleration: ความเร่ง / การเอียง
+  gas: ก๊าซ / คุณภาพอากาศ
+  sound: เสียง
+  current: กระแสไฟฟ้า
+  voltage: แรงดันไฟฟ้า
+  weight: น้ำหนัก
+  location: ตำแหน่ง (GPS)
+  rfid: อ่านบัตร RFID / NFC
+  # do
+  relay: สวิตช์รีเลย์
+  motor: ขับมอเตอร์
+  display: แสดงผล
+  buzzer: ส่งเสียง
+  led: ไฟ LED
+  # connect / compute (mostly boards)
+  wifi: Wi-Fi
+  bluetooth: Bluetooth / BLE
+  lora: LoRa
+  ethernet: Ethernet
+  camera: กล้อง
+  linux: รัน Linux
+
+interfaces:
+  i2c: I2C
+  spi: SPI
+  uart: UART (Serial)
+  rs485: RS485 / Modbus RTU
+  analog: Analog
+  digital: Digital (GPIO)
+  1-wire: 1-Wire
+  pwm: PWM
+  usb: USB
