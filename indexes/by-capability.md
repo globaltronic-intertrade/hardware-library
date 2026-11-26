@@ -11,3 +11,11 @@
 ### ความชื้นในอากาศ (`humidity`)
 
 - [RS485 Modbus Temperature & Humidity Sensor](../sensors/rs485-modbus-temp-humidity/) — 🟢 tested
+
+### Wi-Fi (`wifi`)
+
+- [ESP32 DevKit V1 (ESP32-WROOM-32)](../boards/esp32-devkit/) — 🟡 draft
+
+### Bluetooth / BLE (`bluetooth`)
+
+- [ESP32 DevKit V1 (ESP32-WROOM-32)](../boards/esp32-devkit/) — 🟡 draft
