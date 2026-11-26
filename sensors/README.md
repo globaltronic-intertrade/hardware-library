@@ -6,14 +6,14 @@
 
 | อุปกรณ์ | สรุป | Capability | Interface | Logic | Status | ทดสอบกับ |
 | --- | --- | --- | --- | --- | --- | --- |
-| [RS485 Modbus Temperature & Humidity Sensor](../sensors/rs485-modbus-temp-humidity/) | เซนเซอร์อุณหภูมิและความชื้นแบบอุตสาหกรรม สื่อสารผ่าน RS485 (Modbus RTU) ต่อหลายตัวบนสายเส้นเดียวได้ | temperature, humidity | rs485 | - | 🟡 draft | esp32-devkit |
+| [RS485 Modbus Temperature & Humidity Sensor](../sensors/rs485-modbus-temp-humidity/) | เซนเซอร์อุณหภูมิและความชื้นแบบอุตสาหกรรม สื่อสารผ่าน RS485 (Modbus RTU) ต่อหลายตัวบนสายเส้นเดียวได้ (ทดสอบกับรุ่น VMS-300BYH-M) | temperature, humidity | rs485 | - | 🟢 tested | esp32-devkit |
 
 ## ตาม Capability
 
 ### อุณหภูมิ (`temperature`)
 
-- [RS485 Modbus Temperature & Humidity Sensor](../sensors/rs485-modbus-temp-humidity/) — 🟡 draft
+- [RS485 Modbus Temperature & Humidity Sensor](../sensors/rs485-modbus-temp-humidity/) — 🟢 tested
 
 ### ความชื้นในอากาศ (`humidity`)
 
-- [RS485 Modbus Temperature & Humidity Sensor](../sensors/rs485-modbus-temp-humidity/) — 🟡 draft
+- [RS485 Modbus Temperature & Humidity Sensor](../sensors/rs485-modbus-temp-humidity/) — 🟢 tested
