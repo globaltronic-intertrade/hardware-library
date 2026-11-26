@@ -6,4 +6,4 @@
 
 ### RS485 / Modbus RTU (`rs485`)
 
-- [RS485 Modbus Temperature & Humidity Sensor](../sensors/rs485-modbus-temp-humidity/) — 🟡 draft
+- [RS485 Modbus Temperature & Humidity Sensor](../sensors/rs485-modbus-temp-humidity/) — 🟢 tested

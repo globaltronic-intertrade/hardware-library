@@ -1,12 +1,13 @@
 // RS485 Modbus RTU temperature + humidity sensor → ESP32 (Serial Monitor only)
 //
 // Library: ModbusMaster (Doc Walker) — Arduino IDE: Library Manager → "ModbusMaster"
-// Board:   ESP32 Dev Module (esp32 core by Espressif)
+// Board:   ESP32 Dev Module (esp32 core by Espressif) — tested on ESP32 DevKit V1
 // Wiring:  see ../../README.md § การต่อสาย
 //
-// Register map assumed here (check your sensor's datasheet — models differ):
+// Register map (tested with VMS-300BYH-M; check your sensor's datasheet — models differ):
 //   holding register 0 = humidity    × 10  (%RH)
 //   holding register 1 = temperature × 10  (°C, signed)
+//   VMS-300BYH-M also answers the same values at registers 500 / 501 (the datasheet's addresses)
 
 #include <Arduino.h>
 #include <ModbusMaster.h>
@@ -16,9 +17,9 @@ const uint8_t SENSOR_ADDRESS = 1;        // Modbus slave address set on the sens
 const uint32_t BAUD_RATE = 9600;         // must match the sensor (often 4800 or 9600)
 const uint32_t READ_INTERVAL_MS = 5000;  // keep ≥ 1 s; with several sensors leave ~3 s between them
 
-const int PIN_RE_DE = 4;  // MAX485 DE + RE tied together
-const int PIN_RX2 = 18;   // ← MAX485 RO
-const int PIN_TX2 = 19;   // → MAX485 DI
+const int PIN_RE_DE = 18;  // MAX485 DE + RE tied together
+const int PIN_RX2 = 16;    // ← MAX485 RO
+const int PIN_TX2 = 17;    // → MAX485 DI
 // ─────────────────────────────────────────────────────────
 
 ModbusMaster sensor;

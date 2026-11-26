@@ -6,8 +6,8 @@
 
 ### อุณหภูมิ (`temperature`)
 
-- [RS485 Modbus Temperature & Humidity Sensor](../sensors/rs485-modbus-temp-humidity/) — 🟡 draft
+- [RS485 Modbus Temperature & Humidity Sensor](../sensors/rs485-modbus-temp-humidity/) — 🟢 tested
 
 ### ความชื้นในอากาศ (`humidity`)
 
-- [RS485 Modbus Temperature & Humidity Sensor](../sensors/rs485-modbus-temp-humidity/) — 🟡 draft
+- [RS485 Modbus Temperature & Humidity Sensor](../sensors/rs485-modbus-temp-humidity/) — 🟢 tested
